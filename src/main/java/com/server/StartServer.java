@@ -1,13 +1,13 @@
-package com.example.core;
+package com.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Start {
+public class StartServer {
 
     public static void main(String[] args) {
 
-        SpringApplication.run(Start.class, args);
+        SpringApplication.run(StartServer.class, args);
     }
 }
